@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment directories
+venv/
+*.venv
+env/
+ENV/
+env.bak/
+ENV.bak/
+
+# Jupyter notebook files
+.ipynb_checkpoints/
+
+# PyTorch
+*.pt
+*.pth
+
+# Logs
+logs/
+*.log
+wandb/
+multirun/
+outputs/
+
+# Datasets (you might be working with large datasets you don't want to commit)
+datasets/
+output/
+models
+
+# IDE-specific settings (PyCharm, VSCode, etc.)
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store  # macOS
+Thumbs.db   # Windows
+desktop.ini # Windows
+
+# Other tools
+.profile
+
+# Temporary files that can be regenerated
+*.tmp
+*.bak
+*.swp
+cache/
+
+# Other
+*.egg-info/
+dist/
+build/
+*.egg
+*.symlink
